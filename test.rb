@@ -5,8 +5,8 @@ def wheat_grains
 
 end
 def test
-  (1..64).map {|number| number*2}
+  (1..64).each { |number| puts "Square #{number}: #{2**(number)}" }
 end
-pp "#{test}"
+test
 
 #test
